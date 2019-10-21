@@ -1,0 +1,55 @@
+header {
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.2)), url(../images/img4.jpg);
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+  }
+
+  @media screen and (max-width: 670px) {
+    header {
+      min-height: 500px;
+    }
+
+    .book-logo {
+      padding-left: 62px;
+    }
+  }
+
+  * {
+    font-family: Gabriela;
+    font-size: 20px;
+  }
+
+  .dropdown-content {
+    color: white;
+    background-color: transparent;
+  }
+ nav ul li a:hover {
+    border-bottom: 2px solid orange;
+    background-color: gold;
+  }
+
+  .bookWrapper {
+    padding-top: 80px;
+  }
+  .section{
+    padding-top: 50px;
+  }
+  .myBtn {
+    border-radius: 30px 2px 30px 2px;
+  }
+
+  .poly {
+    position: absolute;
+    left: 0px;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: white;
+    font-size: 30%;
+
+  }
+
+  .img {
+    height: 800px;
+  }

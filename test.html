@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="assets/css/materialize.min.css">
+    <link href='https://fonts.googleapis.com/css?family=Gabriela' rel='stylesheet' type='text/css'>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Document</title>
+    <style>
+    header {
+
+    }
+    .myBtn{
+        border-radius: 30px 2px 30px 2px;
+    }
+    .banner-container{
+        z-index: -1;
+        position: relative;
+        bottom: 91px;
+        background: black;
+        height: 90vh;
+    }
+    .banner-img{
+    background: url(assets/images/img3.jpg);
+    background-size: cover;
+        background-position: center;
+        height: 90vh;
+        opacity: .5;
+  }
+  .poly{
+      position: absolute;
+      left: 0px;
+      top: 30%;
+      width: 100%;
+      text-align: center;
+      color: white;
+      font-size: 10%;
+      
+  }
+  @media screen and (max-width: 670px){
+    header{
+      /* min-height: 500px; */
+    }
+
+  }
+  /* .tabs{
+      padding-bottom: 500px !important;
+  } */
+  .poly{
+      font-size:100px;
+  }
+  *{
+      font-family: Gabriela;
+      font-size: 20px;
+  }
+  .nav-wrapper li a{
+      color:white;
+  }
+    </style>
+</head>
+<body>
+    <!-- header -->
+   <header>
+    <nav class="nav-wrapper transparent z-depth-0">
+        <div class="container">
+          <a href="#" class="brand-logo"><img src="assets/images/b.png" alt=""></a>
+          <a href="#" class="sidenav-trigger" data-target="mobile-demo">
+            <i class="material-icons">menu</i>
+          </a>
+          <ul class="right hide-on-med-and-down nav-menu">
+            <li><a href="#" class="white-text">Home</a></li>
+            <li><a href="#" class="white-text">Books</a></li>
+            <li><a href="#" class="white-text">Forum</a></li>
+            <li><a href="#" class="white-text">Login</a></li>
+            <li><a href="#" class="white-text">Signup</a></li>
+          </ul>
+          <ul class="sidenav grey lighten-2" id="mobile-demo">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Books</a></li>
+            <li><a href="#">Forum</a></li>
+            <li><a href="#">Login</a></li>
+            <li><a href="#">Signup</a></li>
+          </ul>
+        </div>
+       
+      </nav>
+      
+      <div class="banner-container">
+          <div class="banner-img"></div>
+      </div>
+       <div class="into-mobile  center hide-on-med-and-up poly">
+                <h4>Welcome to Bookopoly</h4>
+                    <i class="btn orange darken-4 myBtn">Start Reading</i>
+                    <i class="btn orange darken-4 myBtn">Start Writing</i>
+            </div>
+            <div class="into center hide-on-small-and-down poly">
+                <h3>Welcome to Bookopoly</h3>
+                        <i class="btn orange darken-4 myBtn">Start Reading</i>
+                        <i class="btn orange darken-4 myBtn">Start Writing</i>
+            </div>
+            <p>some</p>
+   </header>
+    <!-- main -->
+    <main style="margin-bottom: 500px;">
+            <p>some</p>
+            
+    </main>
+
+    <!-- footer -->
+</body>
+<script src="assets/js/jquery.js"></script>
+<script src="assets/js/materialize.min.js"></script>
+<script>
+
+ $(document).ready(function(){
+    $('.sidenav').sidenav();
+    $('.tabs').tabs();
+  });
+</script>
+</html>

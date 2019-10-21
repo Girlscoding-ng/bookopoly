@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="">
+    <link rel="stylesheet" href="assets/css/materialize.min.css">
+    <link href='https://fonts.googleapis.com/css?family=Gabriela' rel='stylesheet' type='text/css'>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/write2.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css">
+    <script src="assets/word_tool/tinymce.min.js"></script>
+    <script>
+        tinymce.init({
+            selector: '#textarea1',
+            height:800,
+            plugins: 'preview image'
+        })
+    </script>
+    <title>Document</title>
+</head>
+<body>
+    <!-- header -->
+   <header>
+        <nav class="nav-wrapper transparent z-depth-0">
+                <div class="container">
+                  <a href="#" class="brand-logo"><img class="book-logo" src="assets/images/b.png" alt=""></a>
+                  <a href="#" class="sidenav-trigger" data-target="mobile-demo">
+                    <i class="material-icons">menu</i>
+                  </a>
+                  <ul class="right hide-on-med-and-down nav-menu">
+                    <li><a href="index.html" class="white-text">Home</a></li>
+                    <li><a href="books.html" class="white-text">Books</a></li>
+                    <li><a href="forum.html" class="white-text">Forum</a></li>
+                    <li><a href="#login" class="white-text modal-trigger">Login</a></li>
+                    <li><a href="signup.html" class="white-text">Signup</a></li>
+                  </ul>
+                  <ul class="sidenav grey lighten-2" id="mobile-demo">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="books.html">Books</a></li>
+                    <li><a href="forum.html">Forum</a></li>
+                    <li><a href="#login">Login</a></li>
+                    <li><a href="signup.html">Signup</a></li>
+                  </ul>
+                </div>
+               
+              </nav>
+              <div class="into-mobile  center hide-on-med-and-up poly">
+                    <h4 class="white-text">Start Writing</h4>
+                </div>
+                <div class="into center hide-on-small-and-down poly">
+                    <h3 class="white-text">Start Writing</h3>
+                </div>
+   </header>
+   <br>
+
+   <main>
+    <div class="container">
+        <div class="row">
+            <div class="col s2 hide-on-med-and-down"></div>
+            <div class="col s12 m12 l8">
+                            <form>
+                                <h3 class="center-align">Write your story</h3>
+                                <label for="">Chapter</label>
+                                <input type="text" name="" id="">
+                              <div class="row">
+                                <div class="input-field col s12">
+                                  <textarea id="textarea1" class="materialize-textarea"></textarea>
+                                  <label for="textarea1" class='active'></label>
+                                </div>
+                              </div>
+                              <a href="" class="btn orange darken-4">Post</a>
+                            </form>
+                          </div>
+            </div>
+            <div class="col s2 hide-on-med-and-down"></div>
+        </div>
+    </div>
+   </main><br>
+   <footer class="page-footer orange darken-4">
+     <div class="container">
+       <div class="row">
+         <div class="col s6 m4 l6">
+          <h5 class="white-text">About Girlscoding</h5>
+          <p>We are passionate about increasing the number of females in STEM, training the
+            girls in underserved community
+         We are also improving the resourcefulness of young girls and 
+         women through our widespread packages.
+      </p>
+         </div>
+            <div class="col s6 m4 l3">
+                <h5 class="white-text">Categories</h5>
+         
+                <ul>
+         
+                  <li><a class="white-text" href="#!">Download</a></li>
+                  <li><a class="white-text" href="#!">Read</a></li>
+                  <li><a class="white-text" href="#!">Write</a></li>
+                  <li><a class="white-text" href="#!">Login</a></li>
+                  <li><a class="white-text" href="#!">Signup</a></li>
+         
+                </ul>
+         </div>
+         <div class="col s3 m4 l3">
+            <h5 class="white-text">Connect</h5>
+   
+            <ul>
+      
+                <li>
+                  <i class="fab fa-facebook "></i>
+                  <a href="https://facebook.com/pearlsafrica" class="grey-text text-accent-3">Facebook</a> </li>
+                <li>
+                  <i class="fab fa-twitter"></i>
+                  <a href="https://facebook.com/pearlsafrica" class="grey-text text-accent-3">Facebook</a>
+                </li>
+                <li>
+                  <i class="fab fa-youtube"></i>
+                  <a href="https://facebook.com/pearlsafrica" class="grey-text text-accent-3">Facebook</a>
+                </li>
+                <li>
+                  <i class="fab fa-instagram"></i>
+                  <a href="https://facebook.com/pearlsafrica" class="grey-text text-accent-3">Facebook</a>
+                </li>
+              </ul>
+         </div>
+       </div>
+     </div>
+     <div class="footer-copyright orange lighten-1">
+   
+        <div class="container">
+     
+        &copy 2019 Copyright - All Rights Reserved
+     
+        <a class="white-text right" href="#">Back to up</a>
+     
+        </div>
+      </div>
+   </footer>
+   <div id="login" class="modal">
+    <div class="modal-close">
+        <a href="#!" class="modal-close black-text right">
+          <i class="material-icons">close</i>
+        </a>
+      </div>
+    <div class="modal-content center">
+      <h4>Login to Bookopoly</h4>
+      <br>
+      <form >
+          <div class="row">
+             <div class="input-field col s12 l12">
+                 <i class="material-icons prefix">account_circle</i>
+                 <input type="text" id="name" name="input" required>
+                 <label for="name">Username</label>
+               </div>
+           <div class="input-field col s12 l12">
+             <i class="material-icons prefix">email</i>
+             <input type="password" id="password" name="input" required>
+             <label for="password">Password</label>
+           </div>
+           
+           <a type="submit" value="Login" class="btn btn-large orange darken-4" href="books.html">Login</a>
+           </div>
+         </form>
+         <a href="signup.html">Don't you have an account then create one </a>
+    </div>
+  </div>
+</body>
+<script src="assets/js/jquery.js"></script>
+<script src="assets/js/materialize.min.js"></script>
+<script>
+
+ $(document).ready(function(){
+    $('.sidenav').sidenav();
+    $('.tabs').tabs();
+    $('.materialboxed').materialbox();
+    $('.carousel').carousel();
+    $('.modal').modal();
+  });
+  function readURL(input) {
+        if (input.files && input.files[0]) {
+            var reader = new FileReader();
+
+            reader.onload = function (e) {
+                $('#blah')
+                    .attr('src', e.target.result)
+                    .width(300)
+                    .height(260);
+            };
+
+            reader.readAsDataURL(input.files[0]);
+        }
+    }
+</script>
+</html>

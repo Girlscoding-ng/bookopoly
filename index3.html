@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="assets/css/materialize.min.css">
+  <link href='https://fonts.googleapis.com/css?family=Gabriela' rel='stylesheet' type='text/css'>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <title>Document</title>
+  <style>
+    header {
+      background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.2)), url(assets/images/img4.jpg);
+      background-size: cover;
+      background-position: center;
+      min-height: 100vh;
+    }
+
+    @media screen and (max-width: 670px) {
+      header {
+        min-height: 500px;
+      }
+
+      .book-logo {
+        padding-left: 62px;
+      }
+    }
+
+    * {
+      font-family: Gabriela;
+      font-size: 20px;
+    }
+
+    .myBtn {
+      border-radius: 30px 2px 30px 2px;
+    }
+
+    .poly {
+      position: absolute;
+      left: 0px;
+      top: 30%;
+      width: 100%;
+      text-align: center;
+      color: white;
+      font-size: 30%;
+
+    }
+  </style>
+</head>
+
+<body>
+  <!-- header -->
+  <header>
+    <nav class="nav-wrapper transparent z-depth-0">
+      <div class="container">
+        <a href="#" class="brand-logo"><img class="book-logo" src="assets/images/b.png" alt=""></a>
+        <a href="#" class="sidenav-trigger" data-target="mobile-demo">
+          <i class="material-icons">menu</i>
+        </a>
+        <ul class="right hide-on-med-and-down nav-menu">
+          <li><a href="#" class="white-text">Home</a></li>
+          <li><a href="#" class="white-text">Books</a></li>
+          <li><a href="#" class="white-text">Forum</a></li>
+          <li><a href="#" class="white-text">Login</a></li>
+          <li><a href="#" class="white-text">Signup</a></li>
+        </ul>
+        <ul class="sidenav white lighten-2" id="mobile-demo">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Books</a></li>
+          <li><a href="#">Forum</a></li>
+          <li><a href="#">Login</a></li>
+          <li><a href="#">Signup</a></li>
+        </ul>
+      </div>
+
+    </nav>
+    <div class="into-mobile  center hide-on-med-and-up poly">
+      <h4>Welcome to Bookopoly</h4>
+      <i class="btn orange darken-4 myBtn waves-effect waves-purple" style="text-transform: lowercase;">Start
+        Reading</i>
+      <i class="btn orange darken-4 myBtn waves-effect waves-purple" style="text-transform: lowercase;">Start
+        Writing</i>
+    </div>
+    <div class="into center hide-on-small-and-down poly">
+      <h3>Welcome to Bookopoly</h3>
+      <i class="btn orange darken-4 myBtn waves-effect waves-purple" style="text-transform: lowercase;">Start
+        Reading</i>
+      <i class="btn orange darken-4 myBtn waves-effect waves-purple" style="text-transform: lowercase;">Start
+        Writing</i>
+    </div>
+  </header>
+  <br>
+
+  <main>
+    <section>
+      <div class="container">
+        <div class="row">
+          <div class="col l6">
+            <ul class="tabs">
+              <li class="tab col s12 l6">
+                <a href="#who" class="orange-text darken-4">What we do</a>
+              </li>
+              <li class="tab col s12 l6">
+                <a href="#what" class="orange-text darken-4">Our mission</a>
+              </li>
+            </ul>
+            <div class="col s12 center-align" id="who">
+              <p class="flow-text ">What we do</p>
+              <p>We connect grassroot writers who are very talented to readers</p>
+            </div>
+            <div class="col s12 center-align" id="what">
+              <p class="flow-text ">Our mission</p>
+              <p> Our mission is to reawaken the habit of reading which might have died over the years</p>
+            </div>
+          </div>
+          <div class="col l4 offset-l2">
+            <img src="assets/images/pic.jpg" class="responsive-img materialboxed" style="max-height: 300px;">
+          </div>
+        </div>
+      </div>
+    </section>
+    <section>
+      <div class="carousel">
+        <h4 class="center-align orange-text darken-4">Trending Comic Books</h4>
+        <a href="#one" class="carousel-item"><img src="assets/images/archie.jpg" alt=""></a>
+        <a href="#two" class="carousel-item"><img src="assets/images/dork.jpg" alt=""></a>
+        <a href="#three" class="carousel-item"><img src="assets/images/greg.jpg" alt=""></a>
+        <a href="#four" class="carousel-item"><img src="assets/images/nate.jpg" alt=""></a>
+        <a href="#five" class="carousel-item"><img src="assets/images/greg.jpg" alt=""></a>
+        <a href="#six" class="carousel-item"><img src="assets/images/dork.jpg" alt=""></a>
+        <a href="#seven" class="carousel-item"><img src="assets/images/nate.jpg" alt=""></a>
+      </div>
+    </section>
+
+  </main>
+  <footer class="page-footer orange darken-4">
+
+    <div class="container">
+
+      <div class="row">
+
+        <div class="col l6 m4 l6">
+
+          <h5 class="white-text">Who we are?</h5>
+
+          <p class="white-text ">Add some texutal content for describing about your company.organization or website.</p>
+
+
+
+        </div>
+
+        <div class="col l4 offset-l2 m4 l3">
+
+          <h5 class="white-text">Categories</h5>
+
+          <ul>
+
+            <li><a class="white-text" href="#!">jQuery</a></li>
+
+            <li><a class="white-text" href="#!">JavaScript</a></li>
+
+            <li><a class="white-text" href="#!">CSS</a></li>
+
+            <li><a class="white-text" href="#!">HTML</a></li>
+
+          </ul>
+
+
+
+        </div>
+
+        <div class="col l4 offset-l2 m4 l3">
+
+          <h5 class="white-text">About </h5>
+
+          <ul>
+
+            <li><a class="white-text text-lighten-3" href="#!">About the Company</a></li>
+
+            <li><a class="white-text text-lighten-3" href="#!">Privacy</a></li>
+
+            <li><a class="white-text text-lighten-3" href="#!">Contact Support</a></li>
+
+            <li><a class="white-text text-lighten-3" href="#!">Contact Sales</a></li>
+
+          </ul>
+
+
+
+        </div>
+
+      </div>
+
+    </div>
+
+    <div class="footer-copyright orange lighten-4">
+
+      <div class="container">
+
+        © 2018 Copyright - All Rights Reserved
+
+        <a class="white-text  right" href="#!">Terms of Service</a>
+
+      </div>
+
+    </div>
+
+  </footer>
+</body>
+<script src="assets/js/jquery.js"></script>
+<script src="assets/js/materialize.min.js"></script>
+<script>
+  $(document).ready(function () {
+    $('.sidenav').sidenav();
+    $('.tabs').tabs();
+    $('.materialboxed').materialbox();
+    $('.carousel').carousel();
+  });
+</script>
+
+</html>
